@@ -245,3 +245,6 @@ class demo():
 
 s=demo()
 print(s)
+
+# We can use the dir() function to get a list containing all attributes of a module.
+
