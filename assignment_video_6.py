@@ -1,4 +1,5 @@
 # [“name512”, “same1example”, “joy18full”] replace the digits from string inside list
+import datetime
 import random
 import re
 
@@ -64,3 +65,9 @@ print("Unique Set", new_set)
 
 
 # Create function to check if date is in given range
+date1 = "20/01/2026"
+date2 = "20/01/2025"
+element1 = datetime.datetime.strptime(date1, "%d/%m/%Y")
+element2 = datetime.datetime.strptime(date2, "%d/%m/%Y")
+
+print(date1) if date1 > date2 else print(date2) if date2 > date1 else print('Same Date')
