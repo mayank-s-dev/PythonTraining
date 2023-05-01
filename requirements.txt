@@ -1,3 +1,4 @@
 pandas~=2.0.1
-pytest==6.2.3
+pytest~=7.3.1
 flask
+psutil~=5.9.5
